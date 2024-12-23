@@ -8,7 +8,7 @@
                 <input ref="passwordInput"
                        :id="field.attribute"
                        :type="showPassword ? 'text' : 'password'"
-                       class="w-full form-control form-input form-input-bordered ooo:pg-password-input"
+                       class="w-full form-control form-input form-control-bordered ooo:pg-password-input"
                        :class="[ errorClasses, passwordInputExtrasClasses ]"
                        :placeholder="field.name"
                        v-model="value" />
